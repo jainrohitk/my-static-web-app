@@ -22,7 +22,7 @@ class App extends Component {
               <Switch>
                 <Redirect from="/" exact to="/products" />
                 <Route path="/products" component={Products} />
-                <Route path="/about" component={About} />
+                <Route path="/About" component={About} />
                 <Route exact path="**" component={NotFound} />
               </Switch>
             </Suspense>
